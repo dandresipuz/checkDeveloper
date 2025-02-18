@@ -1,0 +1,40 @@
+<div class="grid p-0 m-0 justify-content-center align-items-center h-full">
+    <div class="col-5">
+        <h1 class="main-title text-center mt-0">IngSoft</h1>
+        <div class="flex justify-content-center flex-column">
+            <h1 class="text-center">Bienvenido, <span *ngIf="showName">{{userName}}</span></h1>
+            <textarea 
+                rows="5"
+                cols="30"
+                [(ngModel)]="listSkills"
+                placeholder="Ingresa tus skills"
+                pInputTextarea>
+            </textarea>
+            <button 
+                pButton 
+                pRipple 
+                label="Validar" 
+                (click)="validate()"
+                class="p-button-success mt-4">
+                </button>
+        </div>
+    </div>
+    <div class="col-12 fixed bottom-0 p-0">
+        <div class="footer w-full p-5">
+            <h3 class="text-white m-0">Banistmo</h3>
+        </div>
+    </div>
+</div>
+
+<p-toast position="top-center"></p-toast>
+
+
+<p-dialog [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }" [closeOnEscape]="false">
+    <ng-template pTemplate="header">
+        <h2 class="w-full text-center">!Hola, ¿como te llamas?</h2>
+    </ng-template>
+    <input type="text" class="w-full" pInputText [(ngModel)]="userName" placeholder="Ingresa tú nombre" />
+    <div class="flex justify-content-center gap-2 mt-4">
+        <button pButton pRipple label="Continuar" (click)="go();" class="p-button-success"></button>
+    </div>
+</p-dialog>
