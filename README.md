@@ -1,27 +1,57 @@
-# CheckDeveloper
+# Proyecto Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+## Tecnologías y Herramientas Utilizadas
 
-## Development server
+Este proyecto utiliza las siguientes tecnologías y herramientas para garantizar un desarrollo robusto y escalable:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular v14**: Framework de desarrollo frontend basado en TypeScript.
+- **Patrón de diseño SOLID**: Aplicación de principios para mantener un código limpio, modular y mantenible.
+- **PrimeNG**: Biblioteca de componentes UI para Angular con un diseño moderno y personalizable.
+- **PrimeFlex**: Conjunto de utilidades CSS flexibles para una maquetación eficiente y responsive.
+- **Interceptors**: Implementación de interceptores HTTP para manejo de autenticación, errores y logs.
+- **Llamado HTTP**: Uso de HttpClientModule para realizar peticiones HTTP a servicios REST.
 
-## Code scaffolding
+## Instalación y Configuración
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clona este repositorio:
+   ```bash
+   git clone https://daipuz@dev.azure.com/daipuz/daipuz_pruebas/_git/checkdeveloper
+   ```
 
-## Build
+2. Accede al directorio del proyecto:
+   ```bash
+   cd checkdeveloper
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Instala las dependencias necesarias:
+   ```bash
+   npm install
+   ```
 
-## Running unit tests
+4. Ejecuta el servidor de desarrollo:
+   ```bash
+   ng serve
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. Accede a la aplicación en el navegador:
+   ```
+   http://localhost
+   ```
 
-## Running end-to-end tests
+## Arquitectura del Proyecto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+El proyecto sigue una arquitectura modular basada en los principios SOLID, asegurando escalabilidad y facilidad de mantenimiento. Los principales módulos incluyen:
 
-## Further help
+## Contribución
+Si deseas contribuir a este proyecto, sigue estos pasos:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Crea un fork del repositorio.
+2. Crea una rama con tu nueva funcionalidad:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
+3. Realiza tus cambios y confirma los commits.
+4. Envía un pull request para su revisión.
+
+## Contacto
+Para consultas o soporte, puedes contactar a los mantenedores del proyecto a través de diegoipuzg@gmail.com o abrir un issue en el repositorio.
