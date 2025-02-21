@@ -15,12 +15,12 @@ Este proyecto utiliza las siguientes tecnologías y herramientas para garantizar
 
 1. Clona este repositorio:
    ```bash
-   git clone https://daipuz@dev.azure.com/daipuz/daipuz_pruebas/_git/checkdeveloper
+   git clone https://github.com/dandresipuz/checkDeveloper.git
    ```
 
 2. Accede al directorio del proyecto:
    ```bash
-   cd checkdeveloper
+   cd checkDeveloper
    ```
 
 3. Instala las dependencias necesarias:
